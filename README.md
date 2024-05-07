@@ -32,7 +32,7 @@ See code at jupyter notebook `Segmentation/Skin_segmentation.ipynb` (output incl
 
 We implement this code using the orininal idea of [UNet](https://link.springer.com/chapter/10.1007/978-3-319-24574-4_28) 
 #### Pretrained Model
-[Get pre-trained model in this lik](https://drive.google.com/file/d/14d3liRrutreSOg0VKl25Kzd0yPbsAPcz/view?usp=sharing)
+[Get pre-trained model in this link](https://drive.google.com/file/d/14d3liRrutreSOg0VKl25Kzd0yPbsAPcz/view?usp=sharing)
 #### Usage
 * Train
   
