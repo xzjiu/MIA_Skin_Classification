@@ -25,7 +25,7 @@ For dataset evaluation: please use
 `python test.py --cfg configs/swin_tiny_patch4_window7_224_lite.yaml --img_size 224 --batch_size 24 --mode
 cross_contextual_attention --spatial_attention 1`
 
-Please change the "saved model" at line 103 and "data_path" at 90 accordingly with your data path.
+Please change the "saved model" around line 103 and "data_path" at line 90 accordingly with your data path.
 
 ### Approach 2 U-Net with weights
 See code at jupyter notebook `Segmentation/Skin_segmentation.ipynb` (output included)
@@ -35,7 +35,9 @@ We implement this code using the orininal idea of [UNet](https://link.springer.c
 [Get pre-trained model in this lik](https://drive.google.com/file/d/14d3liRrutreSOg0VKl25Kzd0yPbsAPcz/view?usp=sharing)
 #### Usage
 * Train
-Change the "data_path to" your training and test dataset
+  
+Change the "data_path" to your training and test dataset
 * Test
+
 Under title test, replace model by your saved model from previous code or replace it by pretrained model
  
