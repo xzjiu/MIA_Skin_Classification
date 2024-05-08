@@ -19,6 +19,8 @@ You need to change the `data_path` in `train.py` manually around line 100
 * Inference
   
 For single image inference: please use function "process_image" in `skin_inference.py` (manually change model path around line 29)
+
+For test dataseet: please change the data_path correctly in `skin_inference.py`
 * Test
   
 For dataset evaluation: please use 
