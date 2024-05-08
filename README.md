@@ -1,6 +1,6 @@
 # MIA_Skin_Segmentation and Classification
 ## Segmentation
-In this task, we have tried two approaches. We initially tried the pure U-Net method and in test dataset it can achieve DICE with 0.89. Change the weights of class can slightly improve the result to 0.91 to 0.92. We weight the loss by the lession type due to the unbalance of the dataset. Then we also tried a more advanced Transformer based U-Net and for the same test data, it can achieve DICE with 0.94 - 0.95.
+In this task, we have tried two approaches. We initially tried the pure U-Net method and in test dataset it can achieve DICE with 0.89. Change the weights of class can slightly improve the result to 0.90 to 0.91. We weight the loss by the lession type due to the unbalance of the dataset. Then we also tried a more advanced Transformer based U-Net and for the same test data, it can achieve DICE with 0.91 - 0.93.
 ### Approach 1 (result submit) Attention Swin U-Net 
 See code under folder `Segmentation/AttSwinUNet-compact`
 
