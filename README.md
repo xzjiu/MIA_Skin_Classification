@@ -41,3 +41,23 @@ Change the "data_path" to your training and test dataset
 
 Under title test, replace model by your saved model from previous code or replace it by pretrained model
  
+## Classifications
+In this task, we handle the classification of symmetry and the diagnosis of skin lesions. The model is based on the reference that:
+
+`Zhang J, Xie Y, Xia Y, Shen C. Attention Residual Learning for Skin Lesion Classification. IEEE Trans Med Imaging. 2019 Sep;38(9):2092-2103. doi: 10.1109/TMI.2019.2893944. Epub 2019 Jan 21. PMID: 30668469.`
+
+We also thanks to Dongliang Ma for his repo, github link at:
+
+`https://github.com/Vipermdl/ARL.git`
+
+#### Prerequirements
+You will need to follow the instruction requirement of "ARL" for setting up the system. The training was performed with pytorch 2.1.0 and cuda 12.2. Python version of 3.9 and higher is recommanded.
+
+#### Pretrained Models:
+[Get pre-trained model in this link](https://livejohnshopkins-my.sharepoint.com/:f:/g/personal/mliu90_jh_edu/EtlUch5vEZFPsO5yL9dtJwABMXyAUGGbMk2JpdyTSYhtAQ?e=F424ne):You will need to put the model into folder "weights/"
+
+#### Usage
+* Train
+If you would like to train the model, please follow the instructions in the train.ipynb
+* Inference
+`python test.py --path ABSOLUTE_PATH_TO_THE_TEST_DATASET_FOLDER
