@@ -56,10 +56,14 @@ We also thanks to Dongliang Ma for his repo, github link at:
 You will need to follow the instruction requirement of "ARL" for setting up the system. The training was performed with pytorch 2.1.0 and cuda 12.2. Python version of 3.9 and higher is recommanded.
 
 #### Pretrained Models:
-[Get pre-trained model in this link](https://livejohnshopkins-my.sharepoint.com/:f:/g/personal/mliu90_jh_edu/EtlUch5vEZFPsO5yL9dtJwABMXyAUGGbMk2JpdyTSYhtAQ?e=F424ne):You will need to put the model into folder "weights/"
+[Get pre-trained model in this link](https://livejohnshopkins-my.sharepoint.com/:f:/g/personal/mliu90_jh_edu/EtlUch5vEZFPsO5yL9dtJwABMXyAUGGbMk2JpdyTSYhtAQ?e=F424ne):You will need to put the model into folder "./classification/weights/"
 
 #### Usage
 * Train
-If you would like to train the model, please follow the instructions in the train.ipynb
+If you would like to train the model, please follow the instructions in the train.ipynb. You may also need to manually change the network output, changing the loss functions etc.
 * Inference
 `python test.py --path ABSOLUTE_PATH_TO_THE_TEST_DATASET_FOLDER
+Then under each folder, you will find a json file name `FOLDER_NAME_label.json`.
+
+#### Short into to methodology
+Detailed discussion can be seen on the report. In short, to realize the diagnosis, we downgraded the 3-class classification into two binary classificaiton tasks. The model trained for the first binary classification is then used as the pre-trained weight for the second-round binary classification, as well as the classification of symmetry.
