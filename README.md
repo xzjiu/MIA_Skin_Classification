@@ -18,7 +18,7 @@ We modify the code from [Attention swin u-net: Cross-contextual attention mechan
 You need to change the `data_path` in `train.py` manually around line 100
 * Inference
   
-For single image inference: please use function "process_image" in `skin_inference.py`
+For single image inference: please use function "process_image" in `skin_inference.py` (manually change model path around line 29)
 * Test
   
 For dataset evaluation: please use 
