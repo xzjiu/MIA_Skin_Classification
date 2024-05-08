@@ -56,7 +56,7 @@ We also thanks to Dongliang Ma for his repo, github link at:
 You will need to follow the instruction requirement of "ARL" for setting up the system. The training was performed with pytorch 2.1.0 and cuda 12.2. Python version of 3.9 and higher is recommanded.
 
 #### Pretrained Models:
-[Get pre-trained model in this link](https://livejohnshopkins-my.sharepoint.com/:f:/g/personal/mliu90_jh_edu/EtlUch5vEZFPsO5yL9dtJwABMXyAUGGbMk2JpdyTSYhtAQ?e=F424ne):You will need to put the model into folder "./classification/weights/"
+[Get pre-trained model in this link](https://livejohnshopkins-my.sharepoint.com/:f:/g/personal/mliu90_jh_edu/EtlUch5vEZFPsO5yL9dtJwABMXyAUGGbMk2JpdyTSYhtAQ?e=F424ne): ALternatively, you can find the weights in the submitted onedrive folder. You will need to put the model into folder "./classification/weights/"
 
 #### Usage
 * Train
